@@ -3,7 +3,7 @@ const router =express.Router();
 const {getdata,savedata} = require("../controllers/page.controller");
 
 router.post("/",savedata);
-router.get("/",getdata)
+router.get("/show",getdata)
 
 
 module.exports= router;
