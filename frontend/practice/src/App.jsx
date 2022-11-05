@@ -1,17 +1,14 @@
-import { useState } from 'react'
- import './App.css'
-import Signup from './Components/Signup'
-
+import { useState } from "react";
+// import Signup from "./Components/Signup";
+import Getdata from "./Components/Getdata";
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [count, setCount] = useState(0);
   return (
     <div className="App">
-    <Signup/>
-    
-      
+      {/* <Signup /> */}
+      <Getdata/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

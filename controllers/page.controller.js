@@ -16,7 +16,10 @@ const savedata = (req, res) => {
     const user=new User({
         name:req.body.name,
         email:req.body.email,
-        password:req.body.password
+        city:req.body.city,
+        phone:req.body.phone,
+        question:req.body.question,
+        insta:req.body.insta,
 
     });
 
