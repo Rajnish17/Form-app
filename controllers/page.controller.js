@@ -5,7 +5,7 @@ const getdata = (req, res) => {
     .then((data) => {
       res.json({
         message: "Success",
-        data: data,
+        data:data,
       });
     })
     .catch((err) => {

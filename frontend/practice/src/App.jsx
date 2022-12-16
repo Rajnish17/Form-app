@@ -1,12 +1,12 @@
 import { useState } from "react";
-// import Signup from "./Components/Signup";
 import Getdata from "./Components/Getdata";
+import ShowData from "./Components/ShowData";
 function App() {
   const [count, setCount] = useState(0);
   return (
     <div className="App">
-      {/* <Signup /> */}
       <Getdata/>
+      <ShowData/>
     </div>
   );
 }
