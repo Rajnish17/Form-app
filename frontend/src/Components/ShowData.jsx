@@ -10,7 +10,7 @@ const ShowData = () => {
     axios
       .get("http://localhost:8080/show")
       .then((res) => {
-        // setPosts(res.data.data);
+        setPosts(res.data.data);
         console.log(res.data);
       });
   }, []);
